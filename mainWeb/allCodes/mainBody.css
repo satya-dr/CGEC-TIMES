@@ -54,7 +54,9 @@
 .main_news .news{
     height: 100%;
     width: 70%;
-    background-color: green;
+    background: url(/CGEC-TIMES/mainWeb/allCodes/photos/1.png);
+    object-fit: cover;
+
 }
 .main_news .upcoming{
     height: 100%;
