@@ -1,0 +1,23 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    /* font-family: "Rubik", sans-serif; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: #eeecce;
+}
+ .page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: red;
+}

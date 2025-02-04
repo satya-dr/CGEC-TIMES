@@ -1,0 +1,629 @@
+/* Button Design */
+/* Button 5 */
+.container_3 .academicDept{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;   
+    font-weight: 600;
+    position: relative;
+    z-index: 0;
+    border-radius:  12px;
+    background-color: red;
+    transition: calc(0.4s);
+}
+.container_3 .academicDept:hover{
+    transform: scale(1.02);
+}
+.container_3 .academicDept::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #211f1f;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+}
+.container_3 .academicDept::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #FF0000,#FF7300,#FFFB00,#48FF00,
+        #00FFD5,#002BFF,#FF00C8,#FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation:glowing 20s linear infinite ;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+@keyframes glowing{
+    0%{background-position: 0 0 ;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+
+}
+.container_3 .academicDept:hover::before{
+    opacity: 1;
+}
+.container_3 .academicDept:hover::after{
+    background: transparent;
+}
+.container_3 .academicDept:active{
+    color: #000;
+    font-weight: bold;
+}
+
+
+/* Button 1 */
+/* Button Design */
+/* Button 5 */
+.container_3 .publiCation{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    background-color: red;
+    transition: calc(0.4s);
+}
+.container_3 .publiCation:hover{
+    transform: scale(1.02);
+}
+
+.container_3 .publiCation::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #211f1f;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+}
+.container_3 .publiCation::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #FF0000,#FF7300,#FFFB00,#48FF00,
+        #00FFD5,#002BFF,#FF00C8,#FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation:glowing 20s linear infinite ;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+@keyframes glowing{
+    0%{background-position: 0 0 ;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+
+}
+.container_3 .publiCation:hover::before{
+    opacity: 1;
+}
+.container_3 .publiCation:hover::after{
+    background: transparent;
+}
+.container_3 .publiCation:active{
+    color: #000;
+    font-weight: bold;
+}
+
+
+/* Button Design */
+/* Button 5 */
+.container_3 .sports{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    background-color: red;
+    transition: calc(0.4s);
+}
+.container_3 .sports:hover{
+    transform: scale(1.02);
+}
+
+.container_3 .sports::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #211f1f;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+}
+.container_3 .sports::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #FF0000,#FF7300,#FFFB00,#48FF00,
+        #00FFD5,#002BFF,#FF00C8,#FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation:glowing 20s linear infinite ;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+@keyframes glowing{
+    0%{background-position: 0 0 ;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+
+}
+.container_3 .sports:hover::before{
+    opacity: 1;
+}
+.container_3 .sports:hover::after{
+    background: transparent;
+}
+.container_3 .sports:active{
+    color: #000;
+    font-weight: bold;
+}
+
+
+/* Button Design */
+/* Button 5 */
+.container_3 .club{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    background-color: red;
+    transition: calc(0.4s);
+}
+.container_3 .club:hover{
+    transform: scale(1.02);
+}
+
+.container_3 .club::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #211f1f;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+}
+.container_3 .club::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #FF0000,#FF7300,#FFFB00,#48FF00,
+        #00FFD5,#002BFF,#FF00C8,#FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation:glowing 20s linear infinite ;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+@keyframes glowing{
+    0%{background-position: 0 0 ;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+
+}
+.container_3 .club:hover::before{
+    opacity: 1;
+}
+.container_3 .club:hover::after{
+    background: transparent;
+}
+.container_3 .club:active{
+    color: #000;
+    font-weight: bold;
+}
+
+
+/* Button Design */
+/* Button 5 */
+.container_3 .interViews{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    background-color: red;
+    margin-right: 30px;
+    transition: calc(0.4s);
+}
+.container_3 .interViews:hover{
+    transform: scale(1.02);
+}
+
+.container_3 .interViews::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #211f1f;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+}
+.container_3 .interViews::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #FF0000,#FF7300,#FFFB00,#48FF00,
+        #00FFD5,#002BFF,#FF00C8,#FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation:glowing 20s linear infinite ;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+@keyframes glowing{
+    0%{background-position: 0 0 ;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+
+}
+.container_3 .interViews:hover::before{
+    opacity: 1;
+}
+.container_3 .interViews:hover::after{
+    background: transparent;
+}
+.container_3 .interViews:active{
+    color: #000;
+    font-weight: bold;
+}
+
+/* Button Design */
+/* Button 5 */
+.container_3 .comminites .dropDown_4 ul li a{
+    color: #021e52;
+}
+.container_3 .comminites{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    background-color: red;
+    transition: calc(0.4s);
+}
+.container_3 .comminites:hover{
+    transform: scale(1.02);
+}
+
+.container_3 .comminites::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #211f1f;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+}
+.container_3 .comminites::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #FF0000,#FF7300,#FFFB00,#48FF00,
+        #00FFD5,#002BFF,#FF00C8,#FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation:glowing 20s linear infinite ;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+@keyframes glowing{
+    0%{background-position: 0 0 ;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+
+}
+.container_3 .comminites:hover::before{
+    opacity: 1;
+}
+.container_3 .comminites:hover::after{
+    background: transparent;
+}
+.container_3 .comminites:active{
+    color: #000;
+    font-weight: bold;
+}
+
+
+/* Button Design */
+/* Button 5 */
+.container_3 .academicDept{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    background-color: red;
+    transition: calc(0.4s);
+    
+}
+.container_3 .academicDept:hover{
+    transform: scale(1.02);
+}
+
+.container_3 .academicDept::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #211f1f;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+}
+.container_3 .academicDept::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #FF0000,#FF7300,#FFFB00,#48FF00,
+        #00FFD5,#002BFF,#FF00C8,#FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation:glowing 20s linear infinite ;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+@keyframes glowing{
+    0%{background-position: 0 0 ;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+
+}
+.container_3 .academicDept:hover::before{
+    opacity: 1;
+}
+.container_3 .academicDept:hover::after{
+    background: transparent;
+}
+.container_3 .academicDept:active{
+    color: #000;
+    font-weight: bold;
+}
+/* Button Design */
+/* Button 5 */
+.container_3 .acaEvents{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    background-color: red;
+    transition: calc(0.4s);
+}
+.container_3 .acaEvents:hover{
+    transform: scale(1.02);
+}
+
+.container_3 .acaEvents::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #211f1f;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+}
+.container_3 .acaEvents::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #FF0000,#FF7300,#FFFB00,#48FF00,
+        #00FFD5,#002BFF,#FF00C8,#FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation:glowing 20s linear infinite ;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+@keyframes glowing{
+    0%{background-position: 0 0 ;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+
+}
+.container_3 .acaEvents:hover::before{
+    opacity: 1;
+}
+.container_3 .acaEvents:hover::after{
+    background: transparent;
+}
+.container_3 .acaEvents:active{
+    color: #000;
+    font-weight: bold;
+}
+
+
+/* Button Design */
+/* Button 5 */
+.container_3 .festGallery{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    background-color: red;
+    transition: calc(0.4s);
+}
+.container_3 .festGallery:hover{
+    transform: scale(1.02);
+}
+.container_3 .festGallery::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #211f1f;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+}
+.container_3 .festGallery::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #FF0000,#FF7300,#FFFB00,#48FF00,
+        #00FFD5,#002BFF,#FF00C8,#FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation:glowing 20s linear infinite ;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+@keyframes glowing{
+    0%{background-position: 0 0 ;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+
+}
+.container_3 .festGallery:hover::before{
+    opacity: 1;
+}
+.container_3 .festGallery:hover::after{
+    background: transparent;
+}
+.container_3 .festGallery:active{
+    color: #000;
+    font-weight: bold;
+}
