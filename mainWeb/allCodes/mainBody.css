@@ -61,5 +61,5 @@
 .main_news .upcoming{
     height: 100%;
     width: 15%;
-    background-color: yellow;
+    background:rgba(255, 255, 255, 0.1);
 }
