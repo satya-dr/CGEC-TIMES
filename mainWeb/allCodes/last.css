@@ -5,10 +5,10 @@
    height: 61vh;
    width: 100%;
    margin-top: 10px;
-   background: url(/CGEC-TIMES/mainWeb/allCodes/photos/member.jpeg);
-   background-size: cover;
+   background:rgba(207, 207, 207, 0.75);
+   /* background-size: cover;
    background-position: center;
-   object-fit: contain;
+   object-fit: contain; */
 }
 #spaceBtw{
     margin-left: 10rem;
@@ -51,7 +51,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: url(/mainWeb/photos/left_quote.png);
+    background: url(/CGEC-TIMES/mainWeb/allCodes/photos/left_quote.png);
     background-size: 60px;
     background-position: center;
     background-repeat: no-repeat;
