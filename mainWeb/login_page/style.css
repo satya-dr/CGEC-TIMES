@@ -1,4 +1,6 @@
-/* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +16,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: "Rubik", sans-serif;
 }
 
 /* Container for the login box */
@@ -35,21 +38,18 @@ body {
     text-align: center;
 }
 
-/* Styling the photo container */
-.photo-container {
-    margin-bottom: 20px;
+
+ 
+.Login_head{
+    
 }
 
-/* Image styling */
-
-
-/* Form heading style */
 h2 {
     margin-bottom: 20px;
     color: #333;
 }
 
-/* Input field styling */
+
 .input-group {
     margin-bottom: 20px;
     text-align: left;
@@ -70,8 +70,8 @@ h2 {
     font-size: 14px;
 }
 
-/* Button styling */
-button {
+
+.login_button {
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
@@ -80,8 +80,40 @@ button {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    font-weight: 600;
 }
 
 button:hover {
     background-color: #45a049;
+}
+.or_login_p{
+    padding: 20px 10px 10px 10px;
+}
+.or_login{
+    padding: 0 10px 10px 10px;
+    display: flex;
+    align-items: center;
+
+}
+.facebook_button{
+    height: 30px;
+    width: 6.5rem;
+    border-radius: 10px;
+    background:rgba(255, 255, 255, 0.1);
+    color: #071dc7;
+    font-weight: 600;
+}
+
+.google_button{
+    margin-left: 30px;
+    height: 30px;
+    width: 6rem;
+    border-radius: 10px;
+    background:rgba(255, 255, 255, 0.1);
+    color: #333;
+    font-weight: 600;
+}
+.dont_acc{
+    padding: 10px;
+    
 }

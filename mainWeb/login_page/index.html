@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"> 
 </head>
 <body>
     <div class="login-container">
         <div class="login-box">
-            <div class="photo-container">
-               <img src="photo.png" >
+            <div class="Login_head">
+                <h2>Login Account</h2>
             </div>
             <form>
-                <h2>Login</h2>
+               
                 <div class="input-group">
                     <label for="username">Username</label>
                     <input type="text" id="username" name="username" required>
@@ -22,14 +23,20 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" required>
                 </div>
-                <button type="submit">Login</button>
-                <p>Or login with</p>
+                <button type="submit" class="login_button">Login</button>
+                <p class="or_login_p">Or login with</p>
                 <div class="or_login">
-                    <button class="facebook_button">facebook</button>
-                    <button class="google_button">Google</button>
+                    <button class="facebook_button">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        Facebook
+                    </button>
+                    <button class="google_button">
+                        <i class="fa-brands fa-google"></i>
+                        Google
+                    </button>
                 </div>
-                <p>Don't have an account?
-                    <a href=""></a>
+                <p class="dont_acc">Don't have an account?
+                    <a href="/CGEC-TIMES/mainWeb/comingSoon/index.html">sign in</a>
                 </p>
             </form>
         </div>
