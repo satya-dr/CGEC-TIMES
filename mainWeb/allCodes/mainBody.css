@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 .main_news{
-    height: 100%;
+    height: 70rem;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;margin-bottom: 10px;
 }
 .main_news .weekly_update{
     height: 100%;
@@ -14,6 +14,92 @@
     background-color: rgba(255, 255, 255, 0.1);
    
 }
+.main_news .weekly_update .part_1{
+    width: 100%;
+    height: 30rem;
+    /* background-color: red; */
+}
+.main_news .weekly_update .part_1 .latest_updates{
+    height: 100%;
+    width: 100%;
+}
+
+.main_news .weekly_update .part_1 .latest_updates .latest_button{
+    margin-left: 2.7rem;
+    margin-top:25px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    width: 9rem; 
+    border-radius: 10px ;
+    color: #fff;
+    background-color: green;
+    box-shadow: 5px 5px 10px #636868;
+}
+.main_news .weekly_update .part_1 .latest_updates p{
+    height: 9%;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* margin-left: 10px; */
+    background-color: rgb(166, 163, 163);
+    
+}
+.main_news .weekly_update .part_1 .latest_updates p a{
+    color: #fff;
+    margin-left:2px ;
+}
+.main_news .weekly_update .part_1 .latest_updates p img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: calc(0.4s);
+}
+.main_news .weekly_update .part_1 .latest_updates p img:hover{
+    transform: scale(1.6);
+}
+.main_news .weekly_update .part_1 .latest_updates .saraswati_puja img{
+    margin-left: 70px;
+}
+.main_news .weekly_update .part_1 .latest_updates .lastUpdate_sports img{
+    margin-left: 125px;
+}
+.main_news .weekly_update .part_1 .latest_updates .clg_freshers img{
+    margin-left: 110px;
+}
+.main_news .weekly_update .part_1 .latest_updates .clg_interviews img{
+    margin-left: 97px;
+}
+.main_news .weekly_update .part_1 .latest_updates .Celebration img{
+    margin-left: 90px;
+}
+.main_news .weekly_update .part_1 .latest_updates .clg_fest img{
+    margin-left: 103px;
+}
+.main_news .weekly_update .part_1 .latest_updates .clg_semSt img{
+    margin-left: 25px;
+}
+.main_news .weekly_update .part_1 .latest_updates .mk_rest img{
+    margin-left: 70px;
+}
+.main_news .weekly_update .part_1 .latest_updates .clg_topper img{
+    margin-left: 60px;
+}
+
+
+.main_news .weekly_update .part_1 .latest_updates .saraswati_puja{
+    margin-top: 10px;
+}
+
+
+
+.main_news .weekly_update .part_2{
+    width: 100%;
+    height: 30rem;
+    /* background-color: red; */
+}
+
 .main_news .weekly_update .week_button{
   width: 100%;
   margin-top: 20px;
@@ -22,7 +108,7 @@
 }
 .main_news .weekly_update .week_button button{
     background-color: #47adaa;
-    color: black;
+    color: #fff;
     height: 40px;
     width: 10rem;
     border-radius: 10px;
