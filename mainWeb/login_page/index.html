@@ -11,32 +11,52 @@
     <div class="login-container">
         <div class="login-box">
             <div class="Login_head">
+                <img src="/CGEC-TIMES/mainWeb/allCodes/photos/ct.jpg" alt="cgec times logo">
                 <h2>Login Account</h2>
             </div>
-            <form>
+            <form method="post" action="action_page.php">
                
                 <div class="input-group">
                     <label for="username">Username</label>
-                    <input type="text" id="username" name="username" required>
+                    
+                    <div class="user_inputes">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" id="username" placeholder="Enter Username" name="username" required >
+                    </div>
+                   
                 </div>
                 <div class="input-group">
+
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required>
+
+                    <div class="user_inputes">
+
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="text" id="username" placeholder="Enter Username" name="username" required >
+
+                    </div>
+                    <a class="forget_password" href="/CGEC-TIMES/mainWeb/comingSoon/index.html">
+                        Forget Password
+                        <i class="fa-solid fa-key"></i>
+                    </a>
+
                 </div>
                 <button type="submit" class="login_button">Login</button>
-                <p class="or_login_p">Or login with</p>
-                <div class="or_login">
-                    <button class="facebook_button">
+                <p class="or_login_p">
+                    <u class="or_login_p">Or login with</u>
+                </p>
+                <div class="or_login" >
+                    <a class="facebook_button"  href="/CGEC-TIMES/mainWeb/comingSoon/index.html">
                         <i class="fa-brands fa-facebook-f"></i>
-                        Facebook
-                    </button>
-                    <button class="google_button">
+                          Facebook
+                    </a>
+                    <a href="/CGEC-TIMES/mainWeb/comingSoon/index.html" class="google_button">
                         <i class="fa-brands fa-google"></i>
                         Google
-                    </button>
+                    </a>
                 </div>
                 <p class="dont_acc">Don't have an account?
-                    <a href="/CGEC-TIMES/mainWeb/comingSoon/index.html">sign in</a>
+                    <a href="/CGEC-TIMES/mainWeb/comingSoon/index.html">sign up</a>
                 </p>
             </form>
         </div>

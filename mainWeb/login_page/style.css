@@ -38,7 +38,12 @@ body {
     text-align: center;
 }
 
-
+.login-box .Login_head img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    
+}
  
 
 
@@ -56,6 +61,7 @@ h2 {
 .input-group label {
     display: block;
     margin-bottom: 5px;
+    margin-left: 19px;
     font-size: 14px;
     color: #666;
 }
@@ -67,7 +73,15 @@ h2 {
     border-radius: 5px;
     font-size: 14px;
 }
-
+.input-group .user_inputes{
+    display: flex;
+    align-items: center;
+    
+}
+ 
+.input-group .user_inputes i{
+    margin-right: 5px;
+}
 
 .login_button {
     width: 100%;
@@ -81,37 +95,70 @@ h2 {
     font-weight: 600;
 }
 
-button:hover {
+.login_button:hover {
     background-color: #45a049;
 }
+.forget_password{
+    font-size: 13px;
+    margin-left: 5.99rem;
+    font-weight: 500;
+
+}
 .or_login_p{
-    padding: 20px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    color: #939191;
 }
 .or_login{
-    padding: 0 10px 10px 10px;
+    padding: 10px 0;
     display: flex;
     align-items: center;
 
 }
 .facebook_button{
-    height: 30px;
-    width: 6.5rem;
+    height: 35px;
+    width: 10rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
-    background:rgba(255, 255, 255, 0.1);
+    background:rgba(36, 10, 10, 0.1);
     color: #071dc7;
     font-weight: 600;
+}
+.facebook_button:hover{
+    color: #fff;
+    background: #071dc7;
+}
+
+.facebook_button i{
+    margin-right: 5px;
 }
 
 .google_button{
     margin-left: 30px;
-    height: 30px;
-    width: 6rem;
+    height: 35px;
+    width: 8rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
-    background:rgba(255, 255, 255, 0.1);
+    background:rgba(0, 0, 0, 0.1);
     color: #333;
     font-weight: 600;
 }
+.google_button:hover{
+    background-color: #4e4c4c;
+    color: #fff;
+}
+.google_button i{
+    margin-right: 5px;
+}
+
 .dont_acc{
+    border-radius: 10px;
+    box-shadow:5px 5px 3px;
     padding: 10px;
-    
+    color: #666;
 }
