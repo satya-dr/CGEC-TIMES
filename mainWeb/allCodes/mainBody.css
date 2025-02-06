@@ -44,8 +44,14 @@
     width: 100%;
     /* margin-left: 10px; */
     background-color: rgb(166, 163, 163);
+    transition: calc(0.3s);
     
 }
+.main_news .weekly_update .part_1 .latest_updates p:hover{
+    background-color: #87b3b9;
+    transform: scale(1.13);
+}
+
 .main_news .weekly_update .part_1 .latest_updates p a{
     color: #fff;
     margin-left:2px ;
