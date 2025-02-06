@@ -479,10 +479,11 @@ a{
     color: #021e52;
     box-shadow: 0 10px 10px rgb(12, 11, 11);
 }
-.container_3 .club .dropDown_3 ul li a{
+.container_3  a{
     color: #021e52;
     text-decoration-line: none;
 }
+
 .container_3 .club .dropDown_3 ul li:hover{
     cursor: pointer;
     background: rgb(104, 211, 217);
