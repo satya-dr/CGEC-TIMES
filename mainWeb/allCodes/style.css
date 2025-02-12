@@ -21,6 +21,17 @@ a{
     width: 100%;
     
 }
+.main_container .NavBar{
+   height: 14.7rem;
+    width: 100%;
+    background-color: #eeecce;
+    position: fixed;
+    
+}
+.main_container .fake{
+    height: 14.7rem;
+    width: 100%;
+}
 .main_container .container_1{
     height: 2.5rem;
     width: 100%;
