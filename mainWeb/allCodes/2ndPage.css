@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+
+.main_container .Second_page{
+    height: 50rem;
+    width: 100%;
+    background-color: rgb(193, 174, 174);
+    display: flex;
+    background-color: #eeecce;
+    font-family: 'Ubuntu',sans-serif;
+}
+.main_container .Second_page .left_part{
+    height: 100%;
+    width: 65%;
+    /* background-color: red; */
+}
+.main_container .Second_page .left_part .heading_leftpart{
+    margin-top: 20px;
+}
+.main_container .Second_page .left_part .heading_leftpart .heading_{
+    display: flex;
+    margin-left: 50px;
+}
+.main_container .Second_page .left_part .heading_leftpart .heading_ a p{
+      margin-left: 37rem;
+      margin-top: 10px;
+      color: rgb(131, 133, 135);
+      font-size: 19px;
+     
+}
+.main_container .Second_page .left_part .heading_leftpart .line{
+    width: 95%;
+    margin-left: 50px;
+    border: 1px solid rgb(47, 44, 44);
+}
+
+.main_container .Second_page .left_part .main_conten{
+    height: 91%;
+    width: 95%;
+    display: flex;
+    /* background-color: yellow; */
+    margin-left: 50px;
+
+}
+.main_container .Second_page .left_part .main_conten .main_contenLeft{
+    height: 94%;
+    width: 45%;
+    margin-top: 35px;
+    /* background-color: red; */
+}
+.main_container .Second_page .left_part .main_conten .main_contenLeft img {
+    height: 15rem;
+    width: 23rem;
+}
+.main_container .Second_page .left_part .main_conten .main_contenLeft h2{
+    margin-top: 10px;
+
+}
+.main_container .Second_page .left_part .main_conten .main_contenLeft p{
+    padding: 13px 0;
+    text-align: center;
+    color: rgb(96, 105, 105);
+}
+.main_container .Second_page .left_part .main_conten .main_contenright {
+    display: flex;
+    height: 94%;
+    width: 55%;
+    /* background-color: red; */
+    margin-top: 35px;
+}
+.main_container .Second_page .left_part .main_conten .main_contenright .main_contenright_1st{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+}
+
+.main_container .Second_page .left_part .main_conten .main_contenright  .img{
+    height: 50%;
+    width: 100%;
+
+}
+.main_container .Second_page .left_part .main_conten .main_contenright  .img{
+    height: 50%;
+    width: 100%;
+
+}
+.main_container .Second_page .left_part .main_conten .main_contenright  .img  img{
+    height: 9rem;
+    width: 13rem;
+}
+
+
+.main_container .Second_page .left_part .main_conten .main_contenright p{
+    padding: 5px 0;
+    text-align: center;
+    color: rgb(96, 105, 105);
+}
+
+.main_container .Second_page .left_part .main_conten .main_contenright .main_contenright_2nd{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+}
+.main_container .Second_page .left_part .main_conten .main_contenright #space_img{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+.main_container .Second_page .right_part{
+    height: 100%;
+    width: 35%;
+    /* background-color: rgb(255, 18, 216); */
+}
+.main_container .Second_page .right_part h1{
+    text-align: center;
+    margin-top: 25px;
+}
+.main_container .Second_page .right_part .img{
+    display: flex;
+    height: 10rem;
+    width: 95%;
+    /* background-color: red; */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main_container .Second_page .right_part .img img{
+    height: 100%;
+    width: 12rem;
+   
+}
+.main_container .Second_page .right_part .img .writing{
+    text-align: center;
+    
+}
+.main_container .Second_page .right_part .img .writing p{
+      color: rgb(118, 121, 120);
+      margin-top: 20px;
+      font-weight: 600;
+}
+.main_container .Second_page .right_part .img .writing p u{
+    color: rgb(247, 20, 92);
+    margin-right: 5px;
+}
+.main_container .Second_page .right_part .img .writing h2{
+    margin-top:20px ;
+
+}
