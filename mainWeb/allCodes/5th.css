@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+
+.main_container .fiveth_page{
+    height: 35rem;
+    width: 100%;
+    /* background-color: red; */
+    font-family: 'Ubuntu',sans-serif;
+}
+.main_container .fiveth_page .fiveth_1st{
+    height: 17rem;
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 2rem;
+    /* background-color: yellow; */
+    display: flex;
+}
+.main_container .fiveth_page .fiveth_1st .image{
+    height: 100%;
+    width: 55%;
+    background: url();
+   
+
+}
+.main_container .fiveth_page .fiveth_1st .image img{
+    height: 100%;
+    width: 100%;
+}
+.main_container .fiveth_page .fiveth_1st .input_box{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(50, 211, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/CGEC-TIMES/mainWeb/allCodes/photos/wihout_back.png);
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+.main_container .fiveth_page .fiveth_1st .input_box .content h1{
+    padding: 20px;
+    color: rgb(11, 132, 132);
+}
+.main_container .fiveth_page .fiveth_1st .input_box .content input{
+    height: 35px;
+    border-radius: 5px;
+    width: 20rem;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 600;
+}
+.main_container .fiveth_page .fiveth_1st .input_box .content button{
+    height: 35px;
+    width: 5rem;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 600;
+    transition: calc(0.3s);
+}
+.main_container .fiveth_page .fiveth_1st .input_box .content button:hover{
+    background-color: rgb(15, 221, 152);
+    transform: scale(1.08);
+
+    
+}
+
+
+
+
+
+.main_container .fiveth_page .fiveth_2nd{
+    height: 15rem;
+    width: 95%;
+    margin-left: 40px;
+    /* background-color: rgb(156, 12, 125); */
+    display: flex;
+}
+.main_container .fiveth_page .fiveth_2nd .part1{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+.main_container .fiveth_page .fiveth_2nd .part1 .logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.main_container .fiveth_page .fiveth_2nd .part1 .logo #logo{
+    height: 50px;
+    width: 50px;
+}
+.main_container .fiveth_page .fiveth_2nd .part1 .logo #name{
+    height: 30px;
+    width: 20rem;
+    margin-top: 10px;
+}
+.main_container .fiveth_page .fiveth_2nd .part1 .icons{
+    display: flex;
+    justify-content: center;
+}
+.main_container .fiveth_page .fiveth_2nd .part1 .icons i{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(125, 125, 125);
+    border-radius: 5px;
+    border: 1px solid rgb(61, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main_container .fiveth_page .fiveth_2nd .part2{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+}
+.main_container .fiveth_page .fiveth_2nd .part2 .support{
+    height: 100%;
+    width: 13rem;
+    margin-left: 18rem;
+    /* background-color: red; */
+  
+}
+
+
+.main_container .fiveth_page .fiveth_2nd .part2 .legal{
+    height: 100%;
+    width: 13rem;
+    /* background-color: green; */
+}
+.main_container .fiveth_page .fiveth_2nd .part2 h3{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.main_container .fiveth_page .fiveth_2nd .part2 p{
+      color: rgb(123, 123, 123);
+      margin-top: 30px;
+      margin-left: 20px;
+     
+}
+
+.main_container .fiveth_page .last_border{
+    width: 90%;
+    border: 1px  solid #2c2828;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+}
+.main_container .fiveth_page .rights{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
