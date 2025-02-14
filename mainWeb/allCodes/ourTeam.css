@@ -1,0 +1,58 @@
+.our_team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    background-color: red;
+}
+
+.our_team .team_main {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+
+.our_team .team_main .arrow {
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+}
+
+.our_team .team_main .left {
+    left: -3rem;
+}
+
+.our_team .team_main .right {
+    right: -3rem;
+    transform: rotate(180deg);
+}
+
+.our_team .team_main .frame {
+    height: 19rem;
+    width: 18rem;
+    /* overflow: hidden; */
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.our_team .team_main .frame .slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: max-content;
+}
+
+.our_team .team_main .frame .slide .sli {
+    height: 19rem;
+    width: 18rem;
+    color: red;
+    background-color: #fff;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.our_team .team_main .frame .slide img {
+    height: 15rem;
+    width: 18rem;
+    object-fit: cover;
+}

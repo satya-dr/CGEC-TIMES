@@ -56,6 +56,8 @@
 .main_container .Second_page .left_part .main_conten .main_contenLeft img {
     height: 15rem;
     width: 23rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px rgb(86, 86, 85);
 }
 .main_container .Second_page .left_part .main_conten .main_contenLeft h2{
     margin-top: 10px;
@@ -92,6 +94,8 @@
 .main_container .Second_page .left_part .main_conten .main_contenright  .img  img{
     height: 9rem;
     width: 13rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px rgb(86, 86, 85);
 }
 
 
@@ -132,9 +136,12 @@
     margin-top: 20px;
     margin-left: 20px;
 }
-.main_container .Second_page .right_part .img img{
+.main_container .Second_page .right_part  img{
     height: 100%;
-    width: 12rem;
+    width: 17rem;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px rgb(86, 86, 85);
    
 }
 .main_container .Second_page .right_part .img .writing{
@@ -152,5 +159,5 @@
 }
 .main_container .Second_page .right_part .img .writing h2{
     margin-top:20px ;
-
+    /* color: black; */
 }

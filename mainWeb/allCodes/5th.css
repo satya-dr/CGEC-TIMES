@@ -38,14 +38,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/CGEC-TIMES/mainWeb/allCodes/photos/wihout_back.png);
+    /* background: url(/CGEC-TIMES/mainWeb/allCodes/photos/wihout_back.png); */
   background-size: contain; 
   background-position: center; 
   background-repeat: no-repeat;
 }
 .main_container .fiveth_page .fiveth_1st .input_box .content h1{
     padding: 20px;
-    color: rgb(11, 132, 132);
+    color: rgb(4, 51, 51);
 }
 .main_container .fiveth_page .fiveth_1st .input_box .content input{
     height: 35px;

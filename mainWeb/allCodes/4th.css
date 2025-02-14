@@ -56,14 +56,18 @@
     
 }
 .main_container .fourth_page .Events .box-red{
-    background-color: rgb(255, 43, 86);
+    background-color: rgb(30, 12, 83);
+    box-shadow:-10px 10px 10px rgb(94, 83, 83);
 }
 .main_container .fourth_page .Events .box-yellow{
-    background-color: rgb(184, 161, 32);
+    background-color: rgb(6, 6, 41);
+    box-shadow:-10px 10px 10px rgb(94, 83, 83);
 }
 .main_container .fourth_page .Events .box-blue{
-    background-color: rgb(26, 255, 251);
+    background-color: rgb(6, 6, 41);
+    box-shadow:-10px 10px 10px rgb(94, 83, 83);
 }
 .main_container .fourth_page .Events .box-green{
-    background-color: rgb(30, 219, 71);
+    background-color: rgb(30, 12, 83);
+    box-shadow:-10px 10px 10px rgb(94, 83, 83);
 }
