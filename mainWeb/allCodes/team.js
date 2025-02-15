@@ -56,14 +56,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-function moveSlideForward() {
-    if (translateValue > maxTranslate) { 
-        translateValue -= slideWidth;
-    } else {
-        translateValue = 0; 
-    }
-    slider.style.transform = `translateX(${translateValue}px)`;
-    slider.style.transition = "transform 0.5s ease-in-out";
-}
+// function moveSlideForward() {
+//     if (translateValue > maxTranslate) { 
+//         translateValue -= slideWidth;
+//     } else {
+//         translateValue = 0; 
+//     }
+//     slider.style.transform = `translateX(${translateValue}px)`;
+//     slider.style.transition = "transform 0.5s ease-in-out";
+// }
 
-setInterval(moveSlideForward, 2000);
+// setInterval(moveSlideForward, 2000);
