@@ -69,10 +69,9 @@ a{
         align-items: center;
         justify-content: center;
         color: blue;
-        gap: 10px; /* Space between elements */
-        flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+        gap: 5px;  /* সামান্য gap যোগ করা */
+        flex-wrap: wrap; /* যাতে ছোট স্ক্রিনে ভেঙে যায় */
         text-align: center;
-        margin: auto;
     }
 .main_container .container_1 .depts .orange{
     color: rgb(13, 6, 46);
@@ -90,8 +89,8 @@ a{
      margin-right: 10px;
 }
 .main_container .container_1 .depts img {
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     box-shadow: 0 2px 2px #636060;
 }
@@ -347,10 +346,14 @@ a{
         padding: 10px 0;
     }
 }
-
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .main_container .container_1 .depts {
-        flex-direction: column; /* Stacks items on top of each other */
-        gap: 5px;
+        flex-direction: column;  /* ছোট স্ক্রিনে লাইন ব্রেক করবে */
+        gap: 3px;
+    }
+
+    .main_container .container_1 .depts img {
+        height: 25px;
+        width: 25px;
     }
 }
