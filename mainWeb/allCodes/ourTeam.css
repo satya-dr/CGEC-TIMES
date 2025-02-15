@@ -1,58 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 .our_team {
+    height: 26rem;
+    position: relative;
+    overflow: hidden;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 20rem;
-    background-color: red;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.our_team .team_heading {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: rgb(3, 3, 104);
+    /* font-size: 24px; */
+    font-weight: bold;
 }
 
 .our_team .team_main {
     display: flex;
     align-items: center;
-    gap: 50px;
+    justify-content: center;
+    width: 100%;
     position: relative;
 }
 
 .our_team .team_main .arrow {
-    height: 50px;
+    height: 30px;
     cursor: pointer;
     position: absolute;
-    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.our_team .team_main .arrow.disabled {
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 .our_team .team_main .left {
-    left: -3rem;
+    left: 10px;
 }
 
 .our_team .team_main .right {
-    right: -3rem;
-    transform: rotate(180deg);
+    right: 10px;
+    transform: translateY(-50%) rotate(180deg);
 }
 
 .our_team .team_main .frame {
-    height: 19rem;
-    width: 18rem;
-    /* overflow: hidden; */
-    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5);
+    /* background: none; */
+    width: calc(20rem * 4 + 20px * 3); 
+    overflow: hidden;
+    /* box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5); */
+    border-radius: 15px; 
 }
 
 .our_team .team_main .frame .slide {
     display: flex;
+    width: calc(18rem * 8 + 20px * 7); 
     transition: transform 0.5s ease-in-out;
-    width: max-content;
+    gap: 20px; 
+    
 }
 
 .our_team .team_main .frame .slide .sli {
     height: 19rem;
     width: 18rem;
-    color: red;
-    background-color: #fff;
-    flex-shrink: 0;
     text-align: center;
+    background: rgba(92, 46, 46, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.our_team .team_main .frame .slide .sli h3{
+    color: #fff;
+}
+.our_team .team_main .frame .slide .sli p{
+    color: rgb(72, 73, 73);
 }
 
 .our_team .team_main .frame .slide img {
-    height: 15rem;
+    height: 11rem;
     width: 18rem;
-    object-fit: cover;
+    /* object-fit: cover; */
+    border-radius: 10px;
 }

@@ -1,36 +1,69 @@
 const left = document.querySelector('.our_team .team_main .left');
 const right = document.querySelector('.our_team .team_main .right');
 const slider = document.querySelector('.our_team .team_main .frame .slide');
+const slideWidth = 18 * 16; 
+const visibleSlides = 4; 
+const totalSlides = slider.children.length; 
+const maxTranslate = -(18 * (totalSlides - visibleSlides)) * 16; 
 
 let translateValue = 0;
-const slideWidth = 18 * 16; // 18rem কে px-এ কনভার্ট (1rem = 16px)
-const maxTranslate = -((slider.children.length - 1) * slideWidth); // সর্বাধিক বামে যাওয়া মান
 
-function updateArrowVisibility() {
-    // প্রথম ছবিতে থাকলে Left Arrow লুকাবে
-    left.style.display = translateValue === 0 ? "none" : "block";
+function updateArrowState() {
+    if (translateValue === 0) {
+        left.classList.add("disabled"); 
+    } else {
+        left.classList.remove("disabled");
+    }
     
-    // শেষ ছবিতে থাকলে Right Arrow লুকাবে
-    right.style.display = translateValue === maxTranslate ? "none" : "block";
+    if (translateValue === maxTranslate) {
+        right.classList.add("disabled"); 
+    } else {
+        right.classList.remove("disabled");
+    }
 }
 
-// প্রথমবার লোড হলে চেক করবে
-updateArrowVisibility();
+
+updateArrowState();
 
 right.addEventListener('click', () => {
     if (translateValue > maxTranslate) { 
         translateValue -= slideWidth;
+        if (translateValue < maxTranslate) translateValue = maxTranslate; 
         slider.style.transform = `translateX(${translateValue}px)`;
         slider.style.transition = "transform 0.5s ease-in-out";
     }
-    updateArrowVisibility(); // আপডেট করবে Arrow Visibility
+    updateArrowState();
 });
 
 left.addEventListener('click', () => {
     if (translateValue < 0) {
         translateValue += slideWidth;
+        if (translateValue > 0) translateValue = 0; 
         slider.style.transform = `translateX(${translateValue}px)`;
         slider.style.transition = "transform 0.5s ease-in-out";
     }
-    updateArrowVisibility(); // আপডেট করবে Arrow Visibility
+    updateArrowState();
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const slideContainer = document.querySelector(".slide");
+    const slides = document.querySelectorAll(".sli");
+
+   
+    const slideWidth = slides[0].offsetWidth; 
+    const gap = 20; 
+
+    slideContainer.style.width = `${slides.length * slideWidth + (slides.length - 1) * gap}px`;
+});
+
+
+function moveSlideForward() {
+    if (translateValue > maxTranslate) { 
+        translateValue -= slideWidth;
+    } else {
+        translateValue = 0; 
+    }
+    slider.style.transform = `translateX(${translateValue}px)`;
+    slider.style.transition = "transform 0.5s ease-in-out";
+}
+
+setInterval(moveSlideForward, 2000);

@@ -1,4 +1,4 @@
-/* Button Design */
+
 
 .container_3 .academicDept, .container_3 .publiCation,.container_3 .sports,.container_3 .club, .container_3 .interViews
 ,.container_3 .acaEvents , .container_3 .festGallery, .container_3 .comminites{
@@ -31,41 +31,16 @@
     top: 0;
     border-radius: 12px;
 }
-/* .container_3 .academicDept::before,.container_3 .publiCation::before,.container_3 .sports::before, .container_3 .club::before, .container_3 .interViews::before
-,.container_3 .acaEvents::before , .container_3 .festGallery::before, .container_3 .comminites::before {
-    content: "";
-    background: linear-gradient(
-        45deg,
-        #fff,#000000
-       
-    );
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 600%;
-    z-index: -1;
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    filter: blur(8px);
-    animation:glowing 30s linear infinite ;
-    transition: opacity .20s ease-in-out;
-    border-radius: 10px;
-    opacity: 1;
-} */
+
 
 .container_3 .comminites .dropDown_4 ul li a{
     color: #021e52;
 }
-/* @keyframes glowing{
-    0%{background-position: 0 0 ;}
-    50%{background-position: 400% 0;}
-    100%{background-position: 0 0;}
-
-} */
 
 
 
-/* Button Characterstics */
+
+
 .container_3 li{
     height: 30px;
     width: 8rem;
@@ -76,10 +51,7 @@
     
  }
 
- /* .container_3 .academicDept:hover{
-     background-color:green;
-     color: white;
- } */
+
  .container_3 .academicDept:hover .dropDown_1{
      display: block;
      position: absolute;
@@ -92,10 +64,7 @@
  .container_3 .academicDept .dropDown_1 ul li{
      display: block;
  }
- /* .container_3 .academicDept .dropDown_1 ul{
-     margin-top: 12rem;
-     margin-left: 20rem;
- } */
+
  .container_3 .academicDept .dropDown_1 ul li{
      width: 17rem;
      height: 2rem;
@@ -123,7 +92,7 @@
  }
  
  
- /* SPORTS */
+
  
  .container_3 .sports .dropDown_2{
      display: none;

@@ -62,41 +62,14 @@ a{
     transform: translateY(-50%);
     color: #888;
     cursor: pointer;}
-/* .main_container .container_1 .section:hover, .search:hover{
-    cursor: pointer;
-    transform: scale(1.05); 
-    color: #000000;
-    background-color: #a58309;
-} */
-/* .main_container .container_1 .section i{
-    margin-right: 10px;
-    margin-left: 10px;
-}
-.main_container .container_1 .search{
-    height: 30px;
-    width: 30px;
-    background-color: #7a7973;
-    color: #fff;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 20px;
-    transition:calc(0.6s);
-    
-} */
+
 .main_container .container_1 .depts{
-    /* height: 30px; */
-    /* width: 15rem; */
-    /* background-color: red; */
+
     font-family: "Anton", serif;
     display: flex;
     align-items: center;
     justify-content: center;
     color: blue;
- 
-    /* font-family: "Rubik", serif; */
-    /* font-family: "Patua One", serif;  */
     margin-left: 27rem;
     
 }
@@ -295,7 +268,7 @@ a{
 
 
 
-/* part3 */
+
 
 .container_3{
     height: 3rem;
