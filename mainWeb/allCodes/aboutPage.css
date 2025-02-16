@@ -5,7 +5,7 @@
 .main_container .aboutPage{
     height: 31rem;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
 }
 .main_container .aboutPage .backGroundAbout {
     position: relative; 
