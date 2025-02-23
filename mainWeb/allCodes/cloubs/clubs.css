@@ -24,10 +24,11 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/CGEC-TIMES/mainWeb/allCodes/photos/cgec_acdemic.jpeg);
+    /* background: url(/CGEC-TIMES/mainWeb/allCodes/photos/cgec_acdemic.jpeg); */
+   
     background-repeat: no-repeat;
-    background-size: cover; /* পুরো div কভার করবে */
-    background-position: center; /* সেন্টার পজিশনে রাখবে */
+    background-size: cover; 
+    background-position: center;
 }
 .main_container .adout_club .club_logo{
     height: 60vh;
