@@ -66,4 +66,4 @@ function moveSlideForward() {
     slider.style.transition = "transform 0.5s ease-in-out";
 }
 
-setInterval(moveSlideForward, 4000);
+setInterval(moveSlideForward, 3000);

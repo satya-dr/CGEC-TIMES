@@ -64,7 +64,7 @@ a{
     cursor: pointer;}
 
     .main_container .container_1 .depts {
-        font-family: "Anton", serif;
+        font-weight: 700;
         display: flex;
         align-items: center;
         color: blue;
@@ -104,7 +104,7 @@ a{
 }
 .main_container .container_1 .contacts .gmail{
     height: 30px;
-    width: 8rem;
+    width: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -173,8 +173,8 @@ a{
     box-shadow:0 5px 5px 0px hsl(0, 0%, 80%) ;
 }
 .main_container .container_2 .dateDetails{
-    height: 4rem;
-    width: 43rem;
+    height: 5rem;
+    width: 46rem;
     background-color: rgb(207, 187, 187);
     font-weight:700 ;
     color: #211f1f;
@@ -184,7 +184,7 @@ a{
 }
 
 .main_container .container_2 .dateDetails .text{
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left:16px ;
 }
 .main_container .container_2 .dateDetails .langauge{
